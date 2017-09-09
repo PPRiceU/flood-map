@@ -153,7 +153,7 @@ map.on('style.load', function (e) {
             'line-width': 3,
             'line-opacity': 0.6
         }
-    }, 'road-waterlogged');
+    });
 
   // Select flooded roads
     var featuresGeoJSON = {

@@ -1,6 +1,6 @@
 {
     "version": 8,
-    "name": "Ft. Myers Flood Map",
+    "name": "Fort Myers Flood Map",
     "metadata": {
         "mapbox:groups": {
             "1444934828655.3389": {
@@ -74,10 +74,6 @@
             "1444933358918.2366": {
                 "name": "POI labels (scalerank 2)",
                 "collapsed": true
-            },
-            "1449050754720.749": {
-                "name": "Chennai-wards",
-                "collapsed": false
             },
             "1444933808272.805": {
                 "name": "Water labels",
@@ -158,40 +154,8 @@
     "bearing": 0,
     "pitch": 0,
     "sources": {
-        "mapbox://planemad.29ptvnau": {
-            "url": "mapbox://planemad.29ptvnau",
-            "type": "vector"
-        },
         "composite": {
             "url": "mapbox://mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v6",
-            "type": "vector"
-        },
-        "mapbox://planemad.b241xkus": {
-            "url": "mapbox://planemad.b241xkus",
-            "type": "raster"
-        },
-        "mapbox://planemad.dwg1vwss": {
-            "url": "mapbox://planemad.dwg1vwss",
-            "type": "vector"
-        },
-        "mapbox://planemad.6wydh49b": {
-            "url": "mapbox://planemad.6wydh49b",
-            "type": "vector"
-        },
-        "mapbox://planemad.d55p62y4": {
-            "url": "mapbox://planemad.d55p62y4",
-            "type": "vector"
-        },
-        "mapbox://maning.chennai_risat1": {
-            "url": "mapbox://maning.chennai_risat1",
-            "type": "raster"
-        },
-        "mapbox://planemad.7wpxwnzb": {
-            "url": "mapbox://planemad.7wpxwnzb",
-            "type": "vector"
-        },
-        "mapbox://planemad.bqmch95j": {
-            "url": "mapbox://planemad.bqmch95j",
             "type": "vector"
         }
     },
@@ -639,59 +603,6 @@
             },
             "paint": {
                 "fill-color": "#e0dae0"
-            },
-            "interactive": true
-        },
-        {
-            "id": "chennai-risat1",
-            "type": "raster",
-            "source": "mapbox://maning.chennai_risat1",
-            "minzoom": 10,
-            "maxzoom": 12,
-            "layout": {
-                "visibility": "visible"
-            },
-            "paint": {
-                "raster-opacity": 1,
-                "raster-brightness-max": 1,
-                "raster-saturation": 0,
-                "raster-contrast": 0,
-                "raster-brightness-min": 0,
-                "raster-hue-rotate": 180
-            },
-            "interactive": true
-        },
-        {
-            "id": "chennai-cartodem",
-            "type": "raster",
-            "source": "mapbox://planemad.b241xkus",
-            "minzoom": 8,
-            "layout": {
-                "visibility": "visible"
-            },
-            "paint": {
-                "raster-opacity": {
-                    "base": 1,
-                    "stops": [
-                        [
-                            8,
-                            0
-                        ],
-                        [
-                            11,
-                            0.9
-                        ],
-                        [
-                            17,
-                            0
-                        ]
-                    ]
-                },
-                "raster-brightness-max": 1,
-                "raster-brightness-min": 0,
-                "raster-contrast": 0,
-                "raster-hue-rotate": 0,
-                "raster-saturation": 0
             },
             "interactive": true
         },
@@ -4039,60 +3950,6 @@
             "interactive": true
         },
         {
-            "id": "road-waterlogged",
-            "type": "line",
-            "metadata": {
-                "mapbox:group": "1449128351698.0784"
-            },
-            "source": "mapbox://planemad.dwg1vwss",
-            "source-layer": "southern_bhandara_mah_sample",
-            "minzoom": 7,
-            "filter": [
-                "==",
-                "class",
-                "street"
-            ],
-            "layout": {
-                "visibility": "visible",
-                "line-cap": "round",
-                "line-join": "round"
-            },
-            "paint": {
-                "line-width": {
-                    "base": 1.5,
-                    "stops": [
-                        [
-                            8,
-                            0.5
-                        ],
-                        [
-                            13,
-                            2
-                        ],
-                        [
-                            18,
-                            18
-                        ]
-                    ]
-                },
-                "line-color": "rgba(251,10,255,1)",
-                "line-opacity": {
-                    "base": 1,
-                    "stops": [
-                        [
-                            0,
-                            0
-                        ],
-                        [
-                            12,
-                            0.65
-                        ]
-                    ]
-                }
-            },
-            "interactive": true
-        },
-        {
             "id": "bridge-street_limited-polygon",
             "type": "fill",
             "metadata": {
@@ -5361,60 +5218,6 @@
             "interactive": true
         },
         {
-            "id": "ward-layerasofoct2011",
-            "type": "line",
-            "metadata": {
-                "mapbox:group": "1449050754720.749"
-            },
-            "source": "mapbox://planemad.7wpxwnzb",
-            "source-layer": "ward_layerasofOct2011",
-            "minzoom": 10,
-            "filter": [
-                "==",
-                "$type",
-                "Point"
-            ],
-            "layout": {},
-            "paint": {
-                "line-color": "rgba(84,82,82,1)",
-                "line-width": 2,
-                "line-opacity": {
-                    "base": 1,
-                    "stops": [
-                        [
-                            12,
-                            0.3
-                        ],
-                        [
-                            17,
-                            0.9
-                        ]
-                    ]
-                },
-                "line-dasharray": [
-                    5,
-                    5
-                ]
-            },
-            "interactive": true
-        },
-        {
-            "id": "chennai-ward-labels",
-            "type": "symbol",
-            "metadata": {
-                "mapbox:group": "1449050754720.749"
-            },
-            "source": "mapbox://planemad.6wydh49b",
-            "source-layer": "chennai-ward-labels",
-            "minzoom": 14,
-            "layout": {
-                "visibility": "visible",
-                "text-field": "Ward {WARD_NO}"
-            },
-            "paint": {},
-            "interactive": true
-        },
-        {
             "id": "hedges",
             "type": "line",
             "source": "composite",
@@ -5907,69 +5710,6 @@
                         [
                             10,
                             2
-                        ]
-                    ]
-                }
-            },
-            "interactive": true
-        },
-        {
-            "id": "india-districts-2011",
-            "type": "line",
-            "source": "mapbox://planemad.29ptvnau",
-            "source-layer": "india-districts-2011",
-            "layout": {
-                "visibility": "visible"
-            },
-            "paint": {
-                "line-opacity": {
-                    "base": 1,
-                    "stops": [
-                        [
-                            6,
-                            0.1
-                        ],
-                        [
-                            10,
-                            0.8
-                        ],
-                        [
-                            12,
-                            0.2
-                        ]
-                    ]
-                },
-                "line-dasharray": [
-                    5,
-                    5
-                ],
-                "line-color": "rgba(125,58,232,1)",
-                "line-width": 0.8
-            },
-            "interactive": true
-        },
-        {
-            "id": "india-districts-2011-labels",
-            "type": "symbol",
-            "source": "mapbox://planemad.bqmch95j",
-            "source-layer": "india-districts-2011-labels",
-            "maxzoom": 10,
-            "layout": {
-                "visibility": "visible",
-                "text-field": "{DISTRICT} Dt."
-            },
-            "paint": {
-                "text-color": "rgba(78,31,125,1)",
-                "text-opacity": {
-                    "base": 1,
-                    "stops": [
-                        [
-                            5,
-                            0
-                        ],
-                        [
-                            9,
-                            0.7
                         ]
                     ]
                 }
@@ -9242,63 +8982,6 @@
                     ]
                 },
                 "text-halo-width": 1.25
-            },
-            "interactive": true
-        },
-        {
-            "id": "chennai-relief-camps",
-            "type": "circle",
-            "metadata": {
-                "mapbox:group": "1448539667999.6956"
-            },
-            "source": "mapbox://planemad.d55p62y4",
-            "source-layer": "chennai-relief-camps-all",
-            "minzoom": 9,
-            "layout": {},
-            "paint": {
-                "circle-color": "rgba(89,22,13,1)",
-                "circle-radius": 6.25,
-                "circle-opacity": 1
-            },
-            "interactive": true
-        },
-        {
-            "id": "chennai-relief-camps copy",
-            "type": "symbol",
-            "metadata": {
-                "mapbox:group": "1448539667999.6956"
-            },
-            "source": "mapbox://planemad.d55p62y4",
-            "source-layer": "chennai-relief-camps-all",
-            "minzoom": 9,
-            "layout": {
-                "icon-image": "triangle-11",
-                "icon-allow-overlap": true,
-                "text-field": "{Name}",
-                "text-size": 10,
-                "text-offset": [
-                    0,
-                    3
-                ],
-                "text-allow-overlap": false,
-                "text-ignore-placement": true,
-                "icon-size": 0.5
-            },
-            "paint": {
-                "icon-opacity": 0.7,
-                "text-opacity": {
-                    "base": 1,
-                    "stops": [
-                        [
-                            14,
-                            0
-                        ],
-                        [
-                            16,
-                            1
-                        ]
-                    ]
-                }
             },
             "interactive": true
         }
