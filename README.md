@@ -7,6 +7,7 @@ Interactive map to visualize and crowdsource flood related information using [Op
 - [CBS](https://www.cbsnews.com/news/houston-harvey-u-flood-maps/?ftag=CNM-00-10aab6a&linkId=41670697)
 - [CNET](https://www.cnet.com/news/maps-of-houstons-floods-shows-its-worse-than-you-thought-hurricane-harvey/)
 - [Mashable](http://mashable.com/2017/08/30/crowdsource-map-u-flood-tracks-harvey-flooding/#WWljEZGHGmqF)
+- [Weather Underground](https://www.wunderground.com/cat6/harvey-houston-most-extreme-rains-ever-major-us-city)
 - [Times of India](http://timesofindia.indiatimes.com/tech/apps/Bangalore-techies-build-app-to-help-Chennai-flood-victims/articleshow/50039041.cms)
 - [The Hindu](http://www.thehindu.com/news/cities/chennai/crowdsourced-map-to-mark-inundated-areas/article7935008.ece)
 
@@ -22,7 +23,7 @@ If your street, building or neighborhood name is missing on the map, you can add
 The flooded streets layer is contributed by the public. Contributions are anonymous with no version control for the sake of simplicity.
 
 #### Data Archive
-You are encouraged to make use of the collected data for further analysis. Download the latest flooded streets layer as a GeoJSON using [this script](https://github.com/tailwindlabs/flood-map/blob/gh-pages/snapshot/uflood-snapshot.py).
+You are encouraged to make use of the collected data for further analysis. Download the latest flooded streets layer as a GeoJSON using [this script](https://github.com/tailwindlabs/flood-map/blob/master/snapshot/uflood-snapshot.py).
 
 Weather Tactics has made hourly snapshots available via Dropbox
 
