@@ -25,7 +25,7 @@ If your street, building or neighborhood name is missing on the map, you can add
 The flooded streets layer is contributed by the public. Contributions are anonymous with no version control for the sake of simplicity.
 
 #### Data Archive
-You are encouraged to make use of the collected data for further analysis. Download the latest flooded streets layer as a GeoJSON using [this script](https://github.com/tailwindlabs/flood-map/blob/master/snapshot/uflood-snapshot.py).
+You are encouraged to make use of the collected data for further analysis. Download the latest flooded streets layer as a GeoJSON using [this script](https://github.com/tailwindlabs/flood-map/blob/master/snapshot/floodmap-snapshot.py).
 
 Weather Tactics has made hourly snapshots available via Dropbox
 
