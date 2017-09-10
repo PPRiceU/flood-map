@@ -1,4 +1,6 @@
-## Flood Maps
+## floodmap.io
+![](img/demo.gif)
+
 Please note: this is alpha software, so bear with us. We hope it will be useful to communities impacted by flooding and will do our best to refine things as we collect feedback.
 
 Interactive map to visualize and crowdsource flood related information using [OpenStreetMap](http://www.openstreetmap.org/) and [Mapbox GL JS](https://www.mapbox.com/mapbox-gl-js/). Read more in the press
