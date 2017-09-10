@@ -84,6 +84,36 @@ var mapLocation = {
     'zoom': 14,
     'pitch': 0,
     'bearing': 0
+  },
+  'fortlauderdale': {
+    'center': [-80.14, 26.12],
+    'zoom': 14,
+    'pitch': 0,
+    'bearing': 0
+  },
+  'jacksonville': {
+    'center': [-81.65, 30.33],
+    'zoom': 14,
+    'pitch': 0,
+    'bearing': 0
+  },
+  'charleston': {
+    'center': [-79.94, 32.79],
+    'zoom': 14,
+    'pitch': 0,
+    'bearing': 0
+  },
+  'savannah': {
+    'center': [-81.10, 32.08],
+    'zoom': 14,
+    'pitch': 0,
+    'bearing': 0
+  },
+  'tallahassee': {
+    'center': [-84.28, 30.43],
+    'zoom': 14,
+    'pitch': 0,
+    'bearing': 0
   }
 };
 mapboxgl.accessToken = 'pk.eyJ1IjoidGFpbHdpbmRsYWJzIiwiYSI6ImNqNnc4Y3UxcTE5azUzM3JwdDBpbWVta3QifQ._wo9Vm2l27CaiRbLKUVZjg';
@@ -157,7 +187,7 @@ map.on('style.load', function (e) {
         data.features.forEach(function (feature) {
           feature.properties.id = feature.id;
         });
-        
+
         featuresGeoJSON.features = featuresGeoJSON.features.concat(data.features);
         var lastFeatureID = data.features[data.features.length - 1].id;
         getFeatures(lastFeatureID);

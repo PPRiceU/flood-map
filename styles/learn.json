@@ -159,8 +159,8 @@
             "type": "vector"
         }
     },
-    "sprite": "mapbox://sprites/planemad/cih4qzr0w0012awltzvpie7qa",
-    "glyphs": "mapbox://fonts/planemad/{fontstack}/{range}.pbf",
+    "sprite": "mapbox://sprites/mapbox/basic-v8",
+    "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
     "layers": [
         {
             "id": "background",

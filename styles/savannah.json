@@ -1,6 +1,6 @@
 {
     "version": 8,
-    "name": "Pensacola Flood Map",
+    "name": "Savannah Flood Map",
     "metadata": {
         "mapbox:groups": {
             "1444934828655.3389": {
@@ -147,8 +147,8 @@
         "mapbox:trackposition": false
     },
     "center": [
-        -87.21,
-        30.42
+        -81.10,
+        32.08
     ],
     "zoom": 14,
     "bearing": 0,
@@ -159,8 +159,8 @@
             "type": "vector"
         }
     },
-    "sprite": "mapbox://sprites/planemad/cih4qzr0w0012awltzvpie7qa",
-    "glyphs": "mapbox://fonts/planemad/{fontstack}/{range}.pbf",
+    "sprite": "mapbox://sprites/mapbox/basic-v8",
+    "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
     "layers": [
         {
             "id": "background",
