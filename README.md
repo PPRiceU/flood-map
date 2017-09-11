@@ -29,8 +29,8 @@ You are encouraged to make use of the collected data for further analysis. Downl
 
 Weather Tactics has made hourly snapshots available via Dropbox
 
-- [Hurricane Irma](https://www.dropbox.com/sh/7choc4mv1o1fn2z/AACbqlw5mDvPLQLGwGBJt_oUa?dl=0)
-- [Hurricane Harvey](https://www.dropbox.com/sh/525vvot1fe56941/AABRuDQF9qqHs-7B4GNDAdxTa?dl=0)
+- [Hurricane Irma](https://www.dropbox.com/sh/e67viyrls4f63jq/AAC-kMfVGFxEOalr826XzHDla?dl=0)
+- [Hurricane Harvey](https://www.dropbox.com/sh/5757a3ujflzdwxo/AAAFD97LMXCRe0YW1HMJDvQ-a?dl=0)
 
 ### Data Sources
 - **Base Layer** - [OpenStreetMap](http://openstreetmap.org)
