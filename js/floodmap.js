@@ -264,7 +264,7 @@ map.on('style.load', function (e) {
               tempObj.geometry = glFeatures[0].geometry;
               tempObj.properties = glFeatures[0].properties;
               tempObj.properties['is_flooded'] = true;
-              tempObj.properties['timestamp'] = (new Date()).toJSON();
+              tempObj.properties['timestamp'] = moment().toISOString();
               $('#map').toggleClass('loading');
               var id = md5(JSON.stringify(tempObj));
               tempObj.id = id;
