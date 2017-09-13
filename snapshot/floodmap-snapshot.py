@@ -4,6 +4,7 @@ import urllib.request
 site_keys = {
     'charleston': 'cj7f7c6sj0rvz32rs91o9ujf2',
     'fortlauderdale': 'cj7f7d7i60uxv34mtr4zux3ua',
+    'fortmyers': 'cj7ja21ow0ckp33qnqwomfxa8',
     'jacksonville': 'cj7f7cmoi0w752wlxsozcxbcf',
     'miami': 'cj7ctr3ov025f2qnpmgly9829',
     'orlando': 'cj7ctreuo02cx2ppjg9wxcgv6',
